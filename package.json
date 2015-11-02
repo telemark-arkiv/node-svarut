@@ -1,0 +1,51 @@
+{
+  "name": "node-svarut",
+  "version": "1.0.0",
+  "description": "Sends documents to svarut",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@t-fk.no",
+    "url": "https://github.com/telemark"
+  },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node standalone.js",
+    "setup": "npm install && node setup.js"
+  },
+  "keywords": [
+    "Telemark fylkeskommune",
+    "tfk",
+    "svarut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/node-svarut.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/node-svarut/issues"
+  },
+  "dependencies": {
+    "ws.js": "^0.0.21",
+    "easyxml": "^1.0.0",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "standard": "^5.3.1",
+    "tap": "^2.2.0"
+  }
+}
