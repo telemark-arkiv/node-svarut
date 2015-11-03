@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/telemark/node-svarut.svg?branch=master)](https://travis-ci.org/telemark/node-svarut)
 # node-svarut
 Node module for SvarUt
+
+More information on SvarUt [here](https://kurs.kommit.no/mod/page/view.php?id=193)
+
 This module does *not* cover all methods in [ForsendelsesServiceV4](https://svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV4?wsdl)
 
 Currently this module supports sending PDF-document(s) to private persons or organizations with SvarUt.
