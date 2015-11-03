@@ -3,7 +3,9 @@
 # node-svarut
 Node module for SvarUt
 This module does *not* cover all methods in [ForsendelsesServiceV4](https://svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV4?wsdl)
+
 Currently this module supports sending PDF-document(s) to private persons or organizations with SvarUt.
+
 KS has plans to build a REST-API, so we will wait until this project is finished, to support the methods like retrieveForsendelseStatus, retrieveForsendelseHistorikk and setForsendelseLestAvEksterntSystem
 
 ## Installation
