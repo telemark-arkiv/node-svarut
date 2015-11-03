@@ -31,7 +31,7 @@ $ npm run setup
 ```javascript
 'use strict'
 
-var svarUt = require('./index.js')
+var svarUt = require('node-svarut')
 
 var options = {
   config: {
