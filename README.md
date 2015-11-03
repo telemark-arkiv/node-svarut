@@ -15,7 +15,7 @@ KS has plans to build a REST-API, so we will wait until this project is finished
 From npm
 
 ```sh
-$ npm install node-svarut
+$ npm install svarut
 ```
 
 From GitHub
@@ -34,7 +34,7 @@ $ npm run setup
 ```javascript
 'use strict'
 
-var svarUt = require('node-svarut')
+var svarUt = require('svarut')
 
 var options = {
   config: {
