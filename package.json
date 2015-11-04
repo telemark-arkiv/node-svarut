@@ -1,6 +1,6 @@
 {
   "name": "svarut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sends documents to svarut",
   "license": "MIT",
   "author": {
@@ -40,8 +40,7 @@
   },
   "dependencies": {
     "ws.js": "^0.0.21",
-    "easyxml": "^1.0.0",
-    "string": "^3.3.1"
+    "easyxml": "^1.0.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
