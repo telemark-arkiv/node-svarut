@@ -34,7 +34,6 @@ function SvarUt (options, callback) {
     var res = []
     mottakere.forEach(function (mottaker) {
       options.mottaker = mottaker
-      console.log(options.mottaker)
 
       var svarutRequest = buildXml(options)
       sendRequest(options, svarutRequest, function (err, id) {
@@ -50,7 +49,6 @@ function SvarUt (options, callback) {
     })
   } else {
     var svarutRequest = buildXml(options)
-    console.log(svarutRequest)
     sendRequest(options, svarutRequest, function (err, id) {
       if (err) {
         return callback(err, null)
