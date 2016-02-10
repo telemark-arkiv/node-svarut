@@ -1,6 +1,6 @@
 {
   "name": "svarut",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Sends documents to svarut",
   "license": "MIT",
   "author": {
@@ -39,7 +39,7 @@
     "url": "http://github.com/telemark/node-svarut/issues"
   },
   "dependencies": {
-    "ws.js": "^0.0.21",
+    "ws.js": "^1.0.21",
     "easyxml": "^1.0.0"
   },
   "devDependencies": {
