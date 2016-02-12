@@ -25,6 +25,7 @@ var options = {
     kryptert: false,
     kunDigitalLevering: false
   },
+  /*
   mottaker: [
     {
       type: 'privatPerson',
@@ -51,6 +52,19 @@ var options = {
       // orgnr: '940192226' // Hvis organisasjon
     }
   ],
+  */
+  mottaker: {
+    type: 'privatPerson',
+    // type: 'Organisasjon', // Hvis organisasjon
+    navn: 'Terje Tverrtryne',
+    adresse1: 'Skogsveien 42',
+    adresse2: '',
+    adresse3: '',
+    postnr: '3710',
+    poststed: 'Skien',
+    fodselsnr: '01029400470'
+    // orgnr: '940192226' // Hvis organisasjon
+  },
   printkonfigurasjon: {
     brevtype: 'BPOST',
     fargePrint: true,
@@ -60,7 +74,7 @@ var options = {
 
 svarUt(options, function (error, id) {
   if (error) {
-    console.log(error)
+    console.error(error)
   } else {
     console.log(id)
   }

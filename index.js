@@ -42,7 +42,7 @@ function SvarUt (options, callback) {
         }
         res.push(id)
         i++
-        if (options.mottaker.length === i) {
+        if (mottakere.length === i) {
           return callback(null, res)
         }
       })
@@ -53,8 +53,9 @@ function SvarUt (options, callback) {
       if (err) {
         return callback(err, null)
       }
-      return callback(null, id)
+      return callback(null, [id])
     })
   }
 }
+
 module.exports = SvarUt
