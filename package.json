@@ -38,7 +38,7 @@
     "url": "http://github.com/telemark/node-svarut/issues"
   },
   "dependencies": {
-    "ws.js": "^1.0.21",
+    "ws.js": "^1.0.22",
     "easyxml": "^1.0.0"
   },
   "devDependencies": {
