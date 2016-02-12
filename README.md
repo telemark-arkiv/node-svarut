@@ -86,3 +86,9 @@ svarUt(options, function (error, id) {
   }
 })
 ```
+
+Returns an array of ids
+
+```javascript
+['b53d8d15-75e8-4536-84d2-c275cc63f47e']
+```
