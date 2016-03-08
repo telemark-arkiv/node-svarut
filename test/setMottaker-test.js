@@ -33,18 +33,6 @@ tap.throws(
 )
 
 tap.throws(
-  function throwIfMissingOptionsAdresse1 () {
-    setMottaker({
-      type: 'privatPerson',
-      navn: 'Kårni Ball',
-      adresse1: false
-    })
-  },
-  {message: 'Missing required input: options.adresse1'},
-  'Options.adresse1 must be supplied'
-)
-
-tap.throws(
   function throwIfMissingOptionsPostnr () {
     setMottaker({
       type: 'privatPerson',
