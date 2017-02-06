@@ -1,6 +1,8 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Build Status](https://travis-ci.org/telemark/node-svarut.svg?branch=master)](https://travis-ci.org/telemark/node-svarut)
 # node-svarut
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/node-svarut.svg)](https://greenkeeper.io/)
 Node module for SvarUt
 
 More information on SvarUt [here](https://kurs.kommit.no/mod/page/view.php?id=193)
