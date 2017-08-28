@@ -1,8 +1,13 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Build Status](https://travis-ci.org/telemark/node-svarut.svg?branch=master)](https://travis-ci.org/telemark/node-svarut)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/node-svarut.svg)](https://greenkeeper.io/)
+
+# No longer maintained
+
+This module is replaced by [svarut](https://github.com/telemark/svarut)
+
 # node-svarut
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/node-svarut.svg)](https://greenkeeper.io/)
 Node module for SvarUt
 
 More information on SvarUt [here](https://kurs.kommit.no/mod/page/view.php?id=193)
@@ -14,6 +19,7 @@ Currently this module supports sending PDF-document(s) to private persons or org
 KS has plans to build a REST-API, so we will wait until this project is finished, to support the methods like retrieveForsendelseStatus, retrieveForsendelseHistorikk and setForsendelseLestAvEksterntSystem
 
 ## Installation
+
 From npm
 
 ```sh
@@ -94,3 +100,9 @@ Returns an array of ids
 ```javascript
 ['b53d8d15-75e8-4536-84d2-c275cc63f47e']
 ```
+
+## License
+
+[MIT](LICENSE)
+
+![Robohash image of node-svarut](https://robots.kebabstudios.party/node-svarut.png "Robohash image of node-svarut")
